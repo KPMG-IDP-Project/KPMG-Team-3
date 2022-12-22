@@ -18,7 +18,6 @@ The **metadata** of these CLA's are compiled by the client and provided in a spr
 
 The things you need to have a copy of the project up and running on your local machine for development and testing purposes.
 
-```
 * Python 3.x (The `Demo` notebook was run on a virtual environment with Python 3.9.15)
 * pandas
 * sqlite3
@@ -29,7 +28,6 @@ The things you need to have a copy of the project up and running on your local m
 * numpy
 * NLTK
 * xlsxwriter
-```
 
 ## Installation
 
