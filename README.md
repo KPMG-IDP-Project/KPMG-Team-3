@@ -8,7 +8,7 @@ Using the available metadata and Artificial Intelligence (NLP) the **relevant in
 
 ## Getting Started
 
-The **collective labour agreements (CLA)** are in *pdf* format and can be obtained from the following website: 
+The **collective labour agreements (CLA)** are in `pdf` format and can be obtained from the following website: 
 
 [CAO Zoeken](https://werk.belgie.be/nl/themas/paritaire-comites-en-collectieve-arbeidsovereenkomsten-caos/collectieve-4)
 
@@ -39,7 +39,7 @@ This step by step guide will get you to have the development environment up and 
 
 ## Usage
 
-The `Demo` module can be run on a set of pdf files from one Joint Committee. It serves as ==proof of concept== for a larger-scale pipeline process.
+The `Demo` module can be run on a set of `pdf` files from one Joint Committee. It serves as <mark>proof of concept</mark> for a larger-scale pipeline process.
 
 ## Pipeline
 
