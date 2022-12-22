@@ -63,3 +63,8 @@ The end-result is currently being deployed into a spreadsheet (Excel file).
 
 1. [Olga Kuznetsova](https://github.com/OKquark)
 2. [Marlon Tadeo](https://github.com/m9tadeo)
+
+## Timeline
+
+Project Start ---> 12 December 2022
+Project End ---> 23 December 2022
