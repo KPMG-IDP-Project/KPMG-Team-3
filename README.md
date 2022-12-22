@@ -39,20 +39,20 @@ This step by step guide will get you to have the development environment up and 
 
 ## Usage
 
-The `Demo` module can be run on a set of `pdf` files from one Joint Committee. It serves as <mark>proof of concept</mark> for a larger-scale pipeline process.
+The `Demo` module can be run on a set of `pdf` files from one Joint Committee. It serves as **proof of concept** for a larger-scale pipeline process.
 
 ## Pipeline
 
-1. ==Text Extraction==
+1. **Text Extraction**
 > The text from the pdf files are extracted using pdfminer.six and stored in a new column of a pandas dataframe along with the Joint Committee number and pdf filename.
 
-2. ==Language Detection==
+2. **Language Detection**
 > The pdf text is parsed using Stanza Language Detector and split into Dutch and non-Dutch (currently, all others are classified as French). Each one is stored in new columns respectively.
 
-3. ==Clustering==
+3. **Clustering**
 > The Dutch text data is analyzed to find groups of *co-occurring words* and each document is classified into clusters.
 
-4. ==Summarization==
+4. **Summarization**
 > Using a set of pre-defined keywords, documents in the first class/cluster are summarized using sentences with higher frequency of the keywords. 
 
 ## Deployment
@@ -66,6 +66,6 @@ The end-result is currently being deployed into a spreadsheet (Excel file).
 
 ## Timeline
 
-Project Start ---> ==12 December 2022==  
+Project Start ---> `12 December 2022`  
 
-Project End ---> ==23 December 2022==
+Project End ---> `23 December 2022`
