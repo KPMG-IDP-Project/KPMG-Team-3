@@ -1,6 +1,6 @@
 # CLA Summarization Project 
 
-The client analyzes hundreds of new **collective bargaining agreements (CLA)** on an annual basis, in order to interpret practical impact and implement them if necessary. 
+The client analyzes hundreds of new **collective labour agreements (CLA)** on an annual basis, in order to interpret practical impact and implement them if necessary. 
 
 Due to the **high volume** (>30 / week) of these **extensive documents**, this is a time consuming process. The task of collecting and processing these new collective agreements needs to be **accelerated and automated**, in order to **enable proactive notification**. 
 
@@ -8,7 +8,11 @@ Using the available metadata and Artificial Intelligence (NLP) the **relevant in
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+The **collective labour agreements (CLA)** are in *pdf* format and can be obtained from the following website: 
+
+[CAO Zoeken](https://werk.belgie.be/nl/themas/paritaire-comites-en-collectieve-arbeidsovereenkomsten-caos/collectieve-4)
+
+The **metadata** of these CLA's are compiled by the client and provided in a spreadsheet.
 
 ### Prerequisites
 
