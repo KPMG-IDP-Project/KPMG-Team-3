@@ -18,7 +18,8 @@ The **metadata** of these CLA's are compiled by the client and provided in a spr
 
 The things you need to have a copy of the project up and running on your local machine for development and testing purposes.
 
-* Python 3.x (The ~Demo~ notebook was run on a virtual environment with Python 3.9.15)
+```
+* Python 3.x (The `Demo` notebook was run on a virtual environment with Python 3.9.15)
 * pandas
 * sqlite3
 * pdfminer.six
@@ -28,20 +29,19 @@ The things you need to have a copy of the project up and running on your local m
 * numpy
 * NLTK
 * xlsxwriter
+```
 
 ## Installation
 
 This step by step guide will get you to have the development environment up and running.
 
-```
-$ Create and activate your virtual environment
-$ Install additional packages and libraries
-$ Open the notebooks in a code editor of your choice running on the virtual environment you just created
-```
+1. Create and activate your virtual environment
+2. Install additional packages and libraries
+3. Open the notebooks in a code editor of your choice running on the virtual environment you just created
 
 ## Usage
 
-The ~Demo~ module can be run on a set of pdf files from one Joint Committee. It serves as *proof of concept* for a larger-scale pipeline process.
+The `Demo` module can be run on a set of pdf files from one Joint Committee. It serves as *proof of concept* for a larger-scale pipeline process.
 
 ## Pipeline
 
