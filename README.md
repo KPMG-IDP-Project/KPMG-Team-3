@@ -1,6 +1,10 @@
-# Project Title
+# CLA Summarization Project 
 
-A short description about the project and/or client.
+The client analyzes hundreds of new **collective bargaining agreements (CLA)** on an annual basis, in order to interpret practical impact and implement them if necessary. 
+
+Due to the **high volume** (>30 / week) of these **extensive documents**, this is a time consuming process. The task of collecting and processing these new collective agreements needs to be **accelerated and automated**, in order to **enable proactive notification**. 
+
+Using the available metadata and Artificial Intelligence (NLP) the **relevant information** will be **extracted** from the documents. The client needs this information in a **structured way**, so **integrations** with existing platforms and/or new **reporting** are possible.
 
 ## Getting Started
 
