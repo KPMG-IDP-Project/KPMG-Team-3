@@ -66,5 +66,5 @@ The end-result is currently being deployed into a spreadsheet (Excel file).
 
 ## Timeline
 
-Project Start ---> 12 December 2022
+Project Start ---> 12 December 2022 
 Project End ---> 23 December 2022
