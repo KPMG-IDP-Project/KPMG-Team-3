@@ -12,57 +12,56 @@ The **collective labour agreements (CLA)** are in *pdf* format and can be obtain
 
 [CAO Zoeken](https://werk.belgie.be/nl/themas/paritaire-comites-en-collectieve-arbeidsovereenkomsten-caos/collectieve-4)
 
-The **metadata** of these CLA's are compiled by the client and provided in a spreadsheet.
+The **metadata** of these CLA's are compiled by the client and provided in a spreadsheet. This can be obtained as well from the above-mentioned website.
 
-### Prerequisites
+## Prerequisites
 
-The things you need before installing the software.
+The things you need to have a copy of the project up and running on your local machine for development and testing purposes.
 
-* You need this
-* And you need this
-* Oh, and don't forget this
+* Python 3.x (The ~Demo~ notebook was run on a virtual environment with Python 3.9.15)
+* pandas
+* sqlite3
+* pdfminer.six
+* Stanza NLP
+* scikit-learn feature extraction
+* scikit-learn cluster
+* numpy
+* NLTK
+* xlsxwriter
 
-### Installation
+## Installation
 
-A step by step guide that will tell you how to get the development environment up and running.
+This step by step guide will get you to have the development environment up and running.
 
 ```
-$ First step
-$ Another step
-$ Final step
+$ Create and activate your virtual environment
+$ Install additional packages and libraries
+$ Open the notebooks in a code editor of your choice running on the virtual environment you just created
 ```
 
 ## Usage
 
-A few examples of useful commands and/or tasks.
+The ~Demo~ module can be run on a set of pdf files from one Joint Committee. It serves as *proof of concept* for a larger-scale pipeline process.
 
-```
-$ First example
-$ Second example
-$ And keep this in mind
-```
+## Pipeline
+
+1. Text Extraction
+> The text from the pdf files are extracted using pdfminer.six and stored in a new column of a pandas dataframe along with the Joint Committee number and pdf filename.
+
+2. Language Detection
+> The pdf text is parsed using Stanza Language Detector and split into Dutch and non-Dutch (currently, all others are classified as French). Each one is stored in new columns respectively.
+
+3. Clustering
+> The Dutch text data is analyzed to find groups of *co-occurring words* and each document is classified into clusters.
+
+4. Summarization
+> Using a set of pre-defined keywords, documents in the first class/cluster are summarized using sentences with higher frequency of the keywords. 
 
 ## Deployment
 
-Additional notes on how to deploy this on a live or release system. Explaining the most important branches, what pipelines they trigger and how to update the database (if anything special).
+The end-result is currently being deployed into a spreadsheet (Excel file).
 
-### Server
+## Contributors
 
-* Live:
-* Release:
-* Development:
-
-### Branches
-
-* Master:
-* Feature:
-* Bugfix:
-* etc...
-
-## Additional Documentation and Acknowledgments
-
-* Project folder on server:
-* Confluence link:
-* Asana board:
-* etc...
-
+1. [Olga Kuznetsova](https://github.com/OKquark)
+2. [Marlon Tadeo](https://github.com/m9tadeo)
