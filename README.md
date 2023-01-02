@@ -61,8 +61,8 @@ The end-result is currently being deployed into a spreadsheet (Excel file).
 
 ## Contributors
 
-1. [Olga Kuznetsova](https://github.com/OKquark)
-2. [Marlon Tadeo](https://github.com/m9tadeo)
+1. [Olga Kuznetsova](https://github.com/OKquark) - Clustering and Summarization 
+2. [Marlon Tadeo](https://github.com/m9tadeo) - Text Extraction and Language Detection 
 
 ## Timeline
 
